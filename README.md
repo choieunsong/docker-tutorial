@@ -11,7 +11,7 @@ Based on Nana youtube
 
 ### What is Docker?
 
-- **\*\***developing**\*\*** and **\*\*\*\***deploying applications**\*\*\*\*** much easier
+- **developing** and **deploying applications** much easier
 - application: package → easily shared and distributed
 - packages application with all the necessary dependencies, configuration, system tools and runtime
 
@@ -206,11 +206,11 @@ FROM node:20-alpine
 
 ex) container 내부에서 express나 dependencies를 설치할 때, _npm instll.._
 
-`COPY` : Copies files or directories from **<src>** and adds them to the filesystem of the container at the path ****\*\*\*\*****<dest>****\*\*\*\*****
+`COPY` : Copies files or directories from **<src>** and adds them to the filesystem of the container at the path \***\*\*\*\*\*\*\***<dest>\***\*\*\*\*\*\*\***
 
 ex) package.json이 필요할 것, 그러니까 host에서 json 파일을 container에 copy해야함
 
-`WORKDIR` : **********************************\*\*\*\***********************************Sets the working directory**********************************\*\*\*\*********************************** for all following commands
+`WORKDIR` : ******\*\*\*\*******\*\*******\*\*\*\*******\*\*\*\*******\*\*\*\*******\*\*******\*\*\*\*******Sets the working directory******\*\*\*\*******\*\*******\*\*\*\*******\*\*\*\*******\*\*\*\*******\*\*******\*\*\*\******* for all following commands
 
 ex) “cd /app/src/…”
 
